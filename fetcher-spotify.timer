@@ -1,0 +1,10 @@
+[Unit]
+Description=Spotify fetcher timer
+
+[Timer]
+OnStartupSec=1min
+OnUnitInactiveSec=1min
+AccuracySec=15s
+
+[Install]
+WantedBy=multi-user.target

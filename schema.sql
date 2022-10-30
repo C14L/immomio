@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS artists ;
+
+CREATE TABLE artists (
+    id SERIAL PRIMARY KEY,
+    spotify_id VARCHAR(30) DEFAULT NULL UNIQUE,
+    name VARCHAR(200) NOT NULL,
+    created TIMESTAMP DEFAULT now(),
+    updated TIMESTAMP DEFAULT now(),
+    edited TIMESTAMP DEFAULT NULL
+) ;

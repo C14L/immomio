@@ -1,0 +1,6 @@
+click
+fastapi[all]
+httpx
+psycopg2-binary
+pydantic
+python-dotenv
