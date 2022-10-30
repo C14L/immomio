@@ -1,6 +1,9 @@
 click
 fastapi[all]
+fastapi-utils
 httpx
 psycopg2-binary
 pydantic
+pytest
 python-dotenv
+requests
